@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/PauloHartwig/finmap-api.svg?branch=master)](https://travis-ci.org/PauloHartwig/finmap-api)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]https://github.com/PauloHartwig/finmap-api/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PauloHartwig/finmap-api/blob/master/LICENSE)
 # FINMAP
 
 ![Logotipo do Projeto](https://github.com/PauloHartwig/finmap-api/blob/master/Documentos/Logo.png)
