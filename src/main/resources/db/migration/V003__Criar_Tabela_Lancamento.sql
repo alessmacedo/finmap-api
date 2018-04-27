@@ -10,4 +10,4 @@ CREATE TABLE IF NOT EXISTS lancamento(
     PRIMARY KEY (id),
     FOREIGN KEY (usuario_id) REFERENCES usuario(id),
     FOREIGN KEY (meta_id) REFERENCES meta(id)
-); ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

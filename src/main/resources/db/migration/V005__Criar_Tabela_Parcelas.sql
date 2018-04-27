@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS parcelas(
     conta_id INT(6) NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (conta_id) REFERENCES conta(id)
-); ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS conta(
     usuario_id INT(6) NOT NULL,
     PRIMARY KEY (id),
     FOREIGN KEY (usuario_id) REFERENCES usuario(id)
-); ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
