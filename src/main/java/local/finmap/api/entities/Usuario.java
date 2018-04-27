@@ -1,6 +1,6 @@
 package local.finmap.api.entities;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -113,15 +113,9 @@ public class Usuario {
 		this.contas = contas;
 	}
 	
+	@Override
 	public String toString() {
-		return "Usuario ["
-				+ "id=" + id
-				+ ", nome=" + nome 
-				+ ", sobrenome=" + sobrenome
-				+ ", email=" + email
-				+ ", senha=" + senha
-				+ ", dataNasc=" + dataNasc
-				+ "]";
+		return "Usuario [id=" + id + ", nome=" + nome + ", sobrenome=" + sobrenome + ", email=" + email + ", senha=" + senha + ", dataNasc=" + dataNasc + "]";
 		
 	}
 
