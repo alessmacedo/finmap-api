@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS usuario(
+    id INT(6) AUTO_INCREMENT,
+    nome VARCHAR(20) NOT NULL,
+    sobrenome VARCHAR(20) NOT NULL,
+    email VARCHAR(20) NOT NULL,
+    senha VARCHAR(20) NOT NULL,
+    dataNasc DATE NOT NULL,
+    PRIMARY KEY (id)
+); ENGINE=InnoDB DEFAULT CHARSET=utf8;
